@@ -71,7 +71,7 @@ Within each time of the day, as well as with *internationalplan*, there were mul
 
 **Now, we should try to understand the distribution of some features within the data.**
 
-![image](https://user-images.githubusercontent.com/71853253/95395842-8786ac00-08cd-11eb-898f-e124cdf2632c.png)
+![image](https://user-images.githubusercontent.com/71853253/95640115-36132400-0a69-11eb-9654-7ad927d882cc.png)
 
 Only 9% of the customer base has an international plan.  Standalone, this figure seems quite low, so benchmarking this against competitors would be useful.  If this figure is indeed lower than expected, price manipulation and/or bundling services may entice more consumers to adopt this plan.  
 
@@ -151,7 +151,7 @@ Retention assumption drawn from [here](https://www.outboundengine.com/blog/custo
 
 ![image](https://user-images.githubusercontent.com/71853253/95404365-cecb6780-08e2-11eb-8d52-33fa2cea15af.png)
 
-An AUC of .84 is high, and indicates that the model is generally a strong classifier.  The curve also displays the true poisitive rate and false positive rate, and the colored scales indicate these rates by classification threshold.  Choosing an appropriate classification threshold will largely depend on the costs associated with classification (tp, fp, tn, fn), which will vary by situation (company/industry/problem).  I will select a threshold of .17, as that seems to be near the point of the onset of diminishing returns (where an increase in true positive rate is accompanied by drastically more false positives).
+An AUC of .84 is high, and indicates that the model is generally a strong classifier.  The curve also displays the true positive rate and false positive rate, and the colored scales indicate these rates by classification threshold.  Choosing an appropriate classification threshold will largely depend on the costs associated with classification (tp, fp, tn, fn), which will vary by situation (company/industry/problem).  I will select a threshold of .17, as that seems to be near the point of the onset of diminishing returns (where an increase in true positive rate is accompanied by drastically more false positives).
 
 ### Tuned Model
 After changing the classification threshold to .17 (refer to ROC plot), the following results correspond to the predictions. 
@@ -352,7 +352,7 @@ When working with balanced data, gini and accuracy suggest that *totaldaycharge*
 Customer churn is an issue that threatens all subscription-based companies.  Early detection of churn will result in substantial savings, as the cost of retention is often far lower than the cost of customer acquisition.  In this analysis, I ran both a logistic regression and a random forest model to predict customers who would churn for a telecom company.  Both models led to strong predictions, with the random forest leading to more cost savings on imbalanced data, whereas both models performed comparatively on balanced data.  As expected, after balancing the data, predictions on churned customers improved (as the class was more represented in the data).  There was slight variation in the importance of the variables between the regression and random forest, with the regression placing slightly more weight onto *voicemailplan* and slightly less on totalevecharge, whereas the random forest ranks totalevecharge 3rd, and ranks *voicemailplan* fairly low (random forest will prefer continuous variables over binary).  Both analyses concluded that *totaldaycharge*, *numberservicecalls*, and *internationalplan* were 3 of the top 4 most important variables.  If the telecom company were to follow the predictions of the tuned model model on balanced data, it can save 64% in customer acquisition and retention costs (prior to balancing the data, 55% savings were achievable).  Not only are there opportunities for substantial cost savings, these results highlight *totaldaycharge*, *numberservicecalls*, and *internationalplan* as main drivers in customer churn, so these are the areas the company should first consider changing to become more profitable.
 
 ### Additional Info and Improving the Analysis
-To further imrpove the model's predictive power, and to move towards the *"optimized cost"* model, more feature engineering can be performed.  Additionally, feature selection and ensemble modeling will likely improve accuracy.     
+To further improve the model's predictive power, and to move towards the *"optimized cost"* model, more feature engineering can be performed.  Additionally, feature selection and ensemble modeling will likely improve accuracy.     
 
 
 
