@@ -1,39 +1,39 @@
 # Customer-Churn
 
 ## Table of Contents
-  - Source and Project Code
-  - Project Introduction and Motivation
-  - Methods Used
-  - Project Highlights 
-  - Data Cleaning and Exploratory Data Analysis
-  - Logistic Regression Model
-	  - Feature Analysis
-	  - Predictions
-	  - Model Assessment and Tuning
-	  - Tuned Model
-	  - Cost Breakdown
-  - Random Forest
-	  - Predictions
-	  - Tuning
-	  - Tuned Model
-	  - Feature Analysis
-	  - Cost Breakdown
-  - Balancing the Data
-	  - Logistic Regression 
-	    - Feature Analysis
-	    - Predictions
-	    - Model Assessment and Tuning
-	    - Tuned Model
-	    - Cost Breakdown
-    - Random Forest 
-      - Predictions
-	    - Tuning
-	    - Tuned Model
-	    - Cost Breakdown
-	    - Feature Analysis
-  - Conclusion
-	  - Additional Info and Improving the Analysis
-	
+  - [Source and Project Code](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#source-and-project-code)
+  - [Project Introduction and Motivation](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#project-introduction-and-motivation)
+  - [Methods Used](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#methods-used)
+  - [Project Highlights](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#project-highlights)
+  - [Data Cleaning and Exploratory Data Analysis](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#data-cleaning-and-exploratory-data-analysis)
+  - [Logistic Regression Model](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#logistic-regression-model)
+	  - [Feature Analysis](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#feature-analysis)
+	  - [Predictions](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#predictions)
+	  - [Model Assessment and Tuning](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#model-assessment-and-tuning)
+	  - [Tuned Model](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuned-model)
+	  - [Cost Breakdown](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#cost-breakdown)
+  - [Random Forest](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#cost-breakdown)
+	  - [Predictions](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#predictions-1)
+	  - [Tuning](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuning)
+	  - [Tuned Model](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuned-model-1)
+	  - [Feature Analysis](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#feature-analysis-1)
+	  - [Cost Breakdown](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#cost-breakdown-1)
+  - [Balancing the Data](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#balancing-the-data)
+	  - [Logistic Regression](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#logistic-regression)
+	    - [Feature Analysis](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#feature-analysis-2)
+	    - [Predictions](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#predictions-3)
+	    - [Model Assessment and Tuning](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#model-assessment-and-tuning-1)
+	    - [Tuned Model](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuned-model-2)
+	    - [Cost Breakdown](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#cost-breakdown-2)
+    	  - [Random Forest](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#random-forest-1)
+      	    - [Predictions](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#predictions-4)
+	    - [Tuning](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuning-1)
+	    - [Tuned Model](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuned-model-3)
+	    - [Cost Breakdown](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#cost-breakdown-3)
+	    - [Feature Analysis](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#feature-analysis-3)
+  - [Conclusion](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#conclusion)
+	  - [Additional Info and Improving the Analysis](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#additional-info-and-improving-the-analysis)
+	  
 ### Source and Project Code 
 This dataset is modified from one stored at the UCI data repository (area code and phone number have been deleted). This is artificial data similar to what is found in actual customer profiles.  The data can be downloaded [here](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/churn.csv).  Project code can be found [here](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/Telecom%20Churn%20Analysis.R).
 
