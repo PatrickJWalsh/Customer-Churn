@@ -25,7 +25,7 @@
 	    - [Model Assessment and Tuning](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#model-assessment-and-tuning-1)
 	    - [Tuned Model](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuned-model-2)
 	    - [Cost Breakdown](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#cost-breakdown-2)
-    	  - [Random Forest](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#random-forest-1)
+    - [Random Forest](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#random-forest-1)
       	    - [Predictions](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#predictions-4)
 	    - [Tuning](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuning-1)
 	    - [Tuned Model](https://github.com/PatrickJWalsh/Customer-Churn/blob/main/README.md#tuned-model-3)
