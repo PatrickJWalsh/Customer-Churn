@@ -71,7 +71,7 @@ Within each time of the day, as well as with *internationalplan*, there were mul
 
 **Now, we should try to understand the distribution of some features within the data.**
 
-![image](https://user-images.githubusercontent.com/71853253/95640115-36132400-0a69-11eb-9654-7ad927d882cc.png)
+![image](https://user-images.githubusercontent.com/71853253/95640292-14ff0300-0a6a-11eb-804e-8861cb822fc0.png)
 
 Only 9% of the customer base has an international plan.  Standalone, this figure seems quite low, so benchmarking this against competitors would be useful.  If this figure is indeed lower than expected, price manipulation and/or bundling services may entice more consumers to adopt this plan.  
 
