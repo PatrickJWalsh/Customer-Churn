@@ -49,7 +49,7 @@ All analysis was performed in R. Select tables and model outputs were formatted 
 * Balancing data (Oversampling and Undersampling)
 
 ## Project Highlights
-* Created logistic regression model and random forest model to classify customer churn, resulting in the identification of 64% cost savings for a telecom company based on  retention and customer acquisition costs
+* Created logistic regression model and random forest model to classify customer churn, resulting in the identification of 64% cost savings for a telecom company to maintain its customer base
 * Utilized a deviance table and variable importance test to determine that total day charge, number of service calls, and international plans are the strongest predictors
 of customer churn for the telecom company
 * Conducted exploratory data analysis to understand the customer base and to develop actionable recommendations such as manipulating pricing strategy and service offering
